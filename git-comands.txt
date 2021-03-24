@@ -7,5 +7,9 @@ git commit -m 'commit message'
 git log
 git config --global user.name "name"
 git config --global user.email "emailid"
-
+git rm --cached <file name> 
+git reset HEAD <filename>
+git checkout -- <filename>
+git diff <filename>
+git diff <commit-id> 
 
