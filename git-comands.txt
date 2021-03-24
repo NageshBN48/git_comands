@@ -14,5 +14,6 @@ git diff <filename>
 git diff <commit-id>
 git remote add origin <hhtp or ssh>
 git push -u origin master
-
+git branch --set-upstream-to=origin/master master
+git pull origin master
 
